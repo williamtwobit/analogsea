@@ -81,6 +81,10 @@ button {
 	font-size: 20px;
 }
 
+button:hover {
+	background-color:#3da95b;
+}
+
 .forgot-password {
 	text-align: center;
 	font-size: 13px;
