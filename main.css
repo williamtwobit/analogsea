@@ -1,0 +1,88 @@
+* { box-sizing: border-box; }
+
+body {
+	background-color:#3A95E1;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	text-align: center;
+	padding-top: 30px
+	padding-bottom: 30px;
+}
+
+header .logo {
+	height:35px;
+	width:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+main {
+	margin-left: auto;
+	margin-right:auto;
+	background-color:white;
+	border-radius: 5px;
+	width:400px;
+	padding:40px 40px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 25px;
+	color:white;
+	font-weight: 500;
+	font-size:14px;
+}
+
+footer a {
+	color:white;
+}
+
+h1 {
+	font-size:35px;
+	font-weight:300;
+	color:#555657;
+	text-align: center;
+	margin-bottom:40px;
+}
+
+label {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display:block;
+	font-size: 14px;
+	font-weight:500;
+}
+
+input {
+	width: 320px;
+	padding: 15px 15px;
+	border:solid #E7E7E7 2px;
+	border-radius:3px;
+	background-color:#FCFCFC;
+	font-size:16px;
+}
+
+.signup input::-webkit-input-placeholder {
+	color:#A9A9A9;
+}
+
+button {
+	display: block;
+	margin-top: 20px;
+	margin-bottom:15px;
+	width:320px;
+	height:55px;
+	border:#84D29A;
+	border-radius: 3px;
+	background-color: #5BC479;
+	color:white;
+	font-size: 20px;
+}
+
+.forgot-password {
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+}
